@@ -1,0 +1,27 @@
+site_name: GitHub使用方法ß
+nav:
+    - Home: index.md
+    - About: about.md
+    - Sample: sample.md
+dev_addr: 0.0.0.0:8000
+theme:
+    name: "material"
+    language: "ja"
+    palette:
+        primary: blue
+        accent: cyan
+    features:
+        - navigation.instant
+        - navigation.tabs
+        - navigation.top
+        - toc.integrate
+        - header.autohide
+extra:
+    search:
+        language: "jp"
+markdown_extensions:
+    - admonition
+    - codehilite:
+          noclasses: true
+          pygments_style: colorful
+          linenums: true
