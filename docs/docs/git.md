@@ -1,10 +1,6 @@
-# Git入門
+# Gitについて
 
-Published by Seiichi Yonekura
-
----
-
-## Gitとは
+## Gitとは？
 
 - バージョン管理システム(VCS)
     - 他のVSC

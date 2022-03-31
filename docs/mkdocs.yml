@@ -1,8 +1,8 @@
 site_name: GitHub使用方法ß
 nav:
     - 目次: index.md
-    - Gitについて: git.md
-    - GitHubについて: github.md
+    - Gitについて: Git.md
+    - GitHubについて: GitHub.md
     - Git初期設定: git-initial.md
     - GitHubを利用したワークフロー: github-workflow.md
     - GitHub Container Registry: github-container-registry.md
@@ -27,4 +27,9 @@ markdown_extensions:
     - codehilite:
           noclasses: true
           pygments_style: colorful
-          linenums: true
+          linenums: false
+    - pymdownx.superfences:
+        custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
