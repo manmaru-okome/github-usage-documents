@@ -3,6 +3,9 @@ nav:
     - Home: index.md
     - About: about.md
     - Sample: sample.md
+    - Gitについて: Git.md
+    - GitHub初期設定: GitH初期設定.md
+    - GitHub Container Registry: github-container-registryの使い方.md
 dev_addr: 0.0.0.0:8000
 theme:
     name: "material"
