@@ -13,7 +13,7 @@
     
     
       
-        <title>About - GitHub使用方法ß</title>
+        <title>Gitについて - GitHub使用方法ß</title>
       
     
     
@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#_1" class="md-skip">
+        <a href="#git" class="md-skip">
           コンテンツにスキップ
         </a>
       
@@ -95,7 +95,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              About
+              Gitについて
             
           </span>
         </div>
@@ -167,12 +167,10 @@
         
   
   
-    
-  
 
 
   <li class="md-tabs__item">
-    <a href="./" class="md-tabs__link md-tabs__link--active">
+    <a href="../about/" class="md-tabs__link">
       About
     </a>
   </li>
@@ -193,10 +191,12 @@
         
   
   
+    
+  
 
 
   <li class="md-tabs__item">
-    <a href="../Git/" class="md-tabs__link">
+    <a href="./" class="md-tabs__link md-tabs__link--active">
       Gitについて
     </a>
   </li>
@@ -281,21 +281,11 @@
 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../about/" class="md-nav__link">
         About
       </a>
-      
     </li>
   
 
@@ -321,11 +311,86 @@
 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../Git/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Gitについて
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Gitについて
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目次">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目次
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#git_1" class="md-nav__link">
+    Gitとは
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#git_2" class="md-nav__link">
+    Gitを利用するメリット
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#git_3" class="md-nav__link">
+    Gitの苦手なところ
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#git_4" class="md-nav__link">
+    Gitの概要図と用語
+  </a>
+  
+    <nav class="md-nav" aria-label="Gitの概要図と用語">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    ブランチ
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -373,12 +438,40 @@
               
                 
 
-<h1 id="_1">目次</h1>
-<ol>
-<li>Gitとは？</li>
-<li>GitHubとは？</li>
-<li>Gitの初期設定</li>
-</ol>
+<h1 id="git">Git入門</h1>
+<p>Published by Seiichi Yonekura</p>
+<hr />
+<h2 id="git_1">Gitとは</h2>
+<ul>
+<li>バージョン管理システム(VCS)</li>
+<li>他のVSC<ul>
+<li>Subversion</li>
+<li>Mercurial</li>
+<li>Visual SourceSafe</li>
+</ul>
+</li>
+<li>VSCの中での<a href="https://insights.stackoverflow.com/survey/2018#work-_-version-control">Gitのシェアは約90%</a></li>
+<li>最近では転職の際にGitHubのアカウントを求められることも</li>
+</ul>
+<h2 id="git_2">Gitを利用するメリット</h2>
+<ul>
+<li>ファイル名で分けなくて良くなる</li>
+<li>source_code.txt</li>
+<li>source_code_20220401.txt</li>
+<li>source_code_v2.txt</li>
+<li>コメントアウトを減らせる</li>
+<li>GitHub上に履歴が残っているので、削除してしまっても履歴を辿れる</li>
+<li>ソースコードとして意味のある行のみを残せる</li>
+</ul>
+<h2 id="git_3">Gitの苦手なところ</h2>
+<ul>
+<li>バイナリファイルの管理</li>
+<li>エクセルファイルなどのバイナリファイルもファイルに変更があったかは検知できるが、どこが変わったかまではわからない</li>
+</ul>
+<h2 id="git_4">Gitの概要図と用語</h2>
+<p><img alt="概要図" src="../images/git.drawio.svg" /></p>
+<h3 id="_1">ブランチ</h3>
+<p><img alt="ブランチ" src="../images/git-branch.drawio.svg" /></p>
 
               
             </article>
@@ -397,7 +490,7 @@
     <nav class="md-footer__inner md-grid" aria-label="フッター">
       
         
-        <a href=".." class="md-footer__link md-footer__link--prev" aria-label="前: Home" rel="prev">
+        <a href="../sample/" class="md-footer__link md-footer__link--prev" aria-label="前: Sample" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -406,20 +499,20 @@
               <span class="md-footer__direction">
                 前
               </span>
-              Home
+              Sample
             </div>
           </div>
         </a>
       
       
         
-        <a href="../sample/" class="md-footer__link md-footer__link--next" aria-label="次: Sample" rel="next">
+        <a href="../Git%E5%88%9D%E6%9C%9F%E8%A8%AD%E5%AE%9A/" class="md-footer__link md-footer__link--next" aria-label="次: Git初期設定" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 次
               </span>
-              Sample
+              Git初期設定
             </div>
           </div>
           <div class="md-footer__button md-icon">

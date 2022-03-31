@@ -20,7 +20,6 @@ Published by Seiichi Yonekura
   - source_code.txt
   - source_code_20220401.txt
   - source_code_v2.txt
-  
 - コメントアウトを減らせる
   - GitHub上に履歴が残っているので、削除してしまっても履歴を辿れる
   - ソースコードとして意味のある行のみを残せる
