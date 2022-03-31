@@ -1,11 +1,12 @@
 site_name: GitHub使用方法ß
 nav:
-    - 目次: aboud.md
-    - Gitについて: Git.md
-    - Git初期設定: Git-inisial.md
+    - 目次: index.md
+    - Gitについて: git.md
+    - GitHubについて: github.md
+    - Git初期設定: git-initial.md
     - GitHubを利用したワークフロー: github-workflow.md
     - GitHub Container Registry: github-container-registry.md
-dev_addr: 0.0.0.0:8000
+dev_addr: 127.0.0.1:8000
 theme:
     name: "material"
     language: "ja"
