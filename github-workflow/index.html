@@ -9,15 +9,15 @@
       
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.8">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.8">
     
     
       
-        <title>GitHub Container Registry - GitHub使用方法ß</title>
+        <title>GitHubを利用したワークフロー - GitHub使用方法ß</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.6e60f8b8.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.644de097.min.css">
       
         
         <link rel="stylesheet" href="../assets/stylesheets/palette.e6a45f82.min.css">
@@ -32,8 +32,9 @@
     
       
         
+        
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
@@ -62,7 +63,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#github-container-registry" class="md-skip">
+        <a href="#github" class="md-skip">
           コンテンツにスキップ
         </a>
       
@@ -95,7 +96,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              GitHub Container Registry
+              GitHubを利用したワークフロー
             
           </span>
         </div>
@@ -159,31 +160,7 @@
 
   <li class="md-tabs__item">
     <a href=".." class="md-tabs__link">
-      Home
-    </a>
-  </li>
-
-      
-        
-  
-  
-
-
-  <li class="md-tabs__item">
-    <a href="../about/" class="md-tabs__link">
-      About
-    </a>
-  </li>
-
-      
-        
-  
-  
-
-
-  <li class="md-tabs__item">
-    <a href="../sample/" class="md-tabs__link">
-      Sample
+      目次
     </a>
   </li>
 
@@ -206,7 +183,19 @@
 
 
   <li class="md-tabs__item">
-    <a href="../Git%E5%88%9D%E6%9C%9F%E8%A8%AD%E5%AE%9A/" class="md-tabs__link">
+    <a href="../GitHub/" class="md-tabs__link">
+      GitHubについて
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../git-initial/" class="md-tabs__link">
       Git初期設定
     </a>
   </li>
@@ -221,6 +210,18 @@
 
   <li class="md-tabs__item">
     <a href="./" class="md-tabs__link md-tabs__link--active">
+      GitHubを利用したワークフロー
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../github-container-registry/" class="md-tabs__link">
       GitHub Container Registry
     </a>
   </li>
@@ -269,37 +270,7 @@
   
     <li class="md-nav__item">
       <a href=".." class="md-nav__link">
-        Home
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../about/" class="md-nav__link">
-        About
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../sample/" class="md-nav__link">
-        Sample
+        目次
       </a>
     </li>
   
@@ -328,7 +299,22 @@
   
   
     <li class="md-nav__item">
-      <a href="../Git%E5%88%9D%E6%9C%9F%E8%A8%AD%E5%AE%9A/" class="md-nav__link">
+      <a href="../GitHub/" class="md-nav__link">
+        GitHubについて
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../git-initial/" class="md-nav__link">
         Git初期設定
       </a>
     </li>
@@ -353,12 +339,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          GitHub Container Registry
+          GitHubを利用したワークフロー
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        GitHub Container Registry
+        GitHubを利用したワークフロー
       </a>
       
         
@@ -377,30 +363,49 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#github-container-registry_1" class="md-nav__link">
-    github container registryとは？
+  <a href="#github_1" class="md-nav__link">
+    GitHubの運用法
   </a>
+  
+    <nav class="md-nav" aria-label="GitHubの運用法">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#github-flow" class="md-nav__link">
+    GitHub flow
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
-    コンテナレジストリへのログイン
+    機能開発
+  </a>
+  
+    <nav class="md-nav" aria-label="機能開発">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    1. ブランチをつくる
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    イメージのプッシュ
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    2. リモートに公開
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    参考文献
-  </a>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -408,6 +413,21 @@
   
 </nav>
       
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../github-container-registry/" class="md-nav__link">
+        GitHub Container Registry
+      </a>
     </li>
   
 
@@ -425,52 +445,19 @@
               
                 
 
-<h1 id="github-container-registry">github container registryことはじめ</h1>
-<h2 id="github-container-registry_1">github container registryとは？</h2>
-<ul>
-<li>コンテナイメージを公開・共有できるレジストリサービス</li>
-<li>docker Hubと同じようなもの</li>
-<li>自分で作成したイメージを登録しておいて<code>docker pull</code>することができる</li>
-</ul>
-<h2 id="_1">コンテナレジストリへのログイン</h2>
-<p>Macの場合</p>
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;">1</span>
-<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;">2</span>
-<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;">3</span></pre></div></td><td class="code"><div class="codehilite" style="background: #ffffff"><pre style="line-height: 125%;"><span></span><code>$ <span style="color: #007020">export</span> <span style="color: #996633">CR_PAT</span><span style="color: #333333">={</span>personal access token<span style="color: #333333">}</span>
-$ <span style="color: #007020">echo</span> <span style="color: #996633">$CR_PAT</span> | docker login ghcr.io -u <span style="color: #333333">{</span>githubユーザー名<span style="color: #333333">}</span> --password-stdin
-Login Succeeded
+
+<h1 id="github">GitHubを利用したワークフロー</h1>
+<h2 id="github_1">GitHubの運用法</h2>
+<h3 id="github-flow">GitHub flow</h3>
+<p><img alt="github-flow" src="https://www.nicoespeon.com/static/github-flow-branching-model-0606fb12b7a55784a3b52833fd015ebd-e0740.jpg" /></p>
+<h2 id="_1">機能開発</h2>
+<p><img alt="workflow-1" src="../images/github-workflow-1.drawio.svg" /></p>
+<h3 id="1">1. ブランチをつくる</h3>
+<div class="highlight"><pre><span></span><code>&gt; git branch &lt;ブランチ名&gt;
 </code></pre></div>
-</td></tr></table>
-<p>windowsの場合（<strong>未検証</strong>）</p>
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;">1</span>
-<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;">2</span>
-<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;">3</span></pre></div></td><td class="code"><div class="codehilite" style="background: #ffffff"><pre style="line-height: 125%;"><span></span><code>&gt; <span style="color: #007020">set </span>CR_PAT={personal access token}
-&gt; <span style="color: #007020">echo </span><span style="color: #008800; font-weight: bold">%</span>CR_PAT% | docker login ghcr.io -U {githubユーザー名} --password-stdin
-Login Succeeded
+<h3 id="2">2. リモートに公開</h3>
+<div class="highlight"><pre><span></span><code>&gt; git push origin/&lt;ブランチ名&gt;
 </code></pre></div>
-</td></tr></table>
-<h2 id="_2">イメージのプッシュ</h2>
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;">1</span>
-<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;">2</span>
-<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;">3</span>
-<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;">4</span>
-<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;">5</span>
-<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;">6</span>
-<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;">7</span></pre></div></td><td class="code"><div class="codehilite" style="background: #ffffff"><pre style="line-height: 125%;"><span></span><code>$ docker pull hello-world
-$ docker tag hello-world ghcr.io/<span style="color: #333333">{</span>githubユーザー名<span style="color: #333333">}</span>/hello-world
-$ docker push ghcr.io/<span style="color: #333333">{</span>githubユーザー名<span style="color: #333333">}</span>/hello-world
-Using default tag: latest
-The push refers to repository <span style="color: #333333">[</span>ghcr.io/manmaru-okome/hello-world<span style="color: #333333">]</span>
-64df1d35ad6c: Pushed 
-latest: digest: sha256:01433e86a06b752f228e3c17394169a5e21a0995f153268a9b36a16d4f2b2184 size: <span style="color: #6600EE; font-weight: bold">525</span>
-</code></pre></div>
-</td></tr></table>
-<h2 id="_3">参考文献</h2>
-<ul>
-<li><a href="https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry">Working with the Container registry(公式)</a></li>
-<li><a href="https://docs.github.com/en/packages/learn-github-packages/configuring-a-packages-access-control-and-visibility">Configuring a package's access control and visibility(公式)</a></li>
-<li><a href="https://www.kaizenprogrammer.com/entry/2020/09/03/060236">GitHub Container Registry 入門</a></li>
-</ul>
 
               
             </article>
@@ -489,7 +476,7 @@ latest: digest: sha256:01433e86a06b752f228e3c17394169a5e21a0995f153268a9b36a16d4
     <nav class="md-footer__inner md-grid" aria-label="フッター">
       
         
-        <a href="../Git%E5%88%9D%E6%9C%9F%E8%A8%AD%E5%AE%9A/" class="md-footer__link md-footer__link--prev" aria-label="前: Git初期設定" rel="prev">
+        <a href="../git-initial/" class="md-footer__link md-footer__link--prev" aria-label="前: Git初期設定" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -503,6 +490,21 @@ latest: digest: sha256:01433e86a06b752f228e3c17394169a5e21a0995f153268a9b36a16d4
           </div>
         </a>
       
+      
+        
+        <a href="../github-container-registry/" class="md-footer__link md-footer__link--next" aria-label="次: GitHub Container Registry" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                次
+              </span>
+              GitHub Container Registry
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
       
     </nav>
   
@@ -526,10 +528,10 @@ latest: digest: sha256:01433e86a06b752f228e3c17394169a5e21a0995f153268a9b36a16d4
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.tabs", "navigation.top", "toc.integrate", "header.autohide"], "translations": {"clipboard.copy": "\u30af\u30ea\u30c3\u30d7\u30dc\u30fc\u30c9\u3078\u30b3\u30d4\u30fc", "clipboard.copied": "\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\s\\-\u3000\u3001\u3002\uff0c\uff0e]+", "search.placeholder": "\u691c\u7d22", "search.result.placeholder": "\u691c\u7d22\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044", "search.result.none": "\u4f55\u3082\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f", "search.result.one": "1\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.other": "#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.more.one": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3082\u30461\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.more.other": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3042\u3068#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.term.missing": "\u691c\u7d22\u306b\u542b\u307e\u308c\u306a\u3044", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.22074ed6.min.js"}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.tabs", "navigation.top", "toc.integrate", "header.autohide"], "search": "../assets/javascripts/workers/search.5e67fbfe.min.js", "translations": {"clipboard.copied": "\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f", "clipboard.copy": "\u30af\u30ea\u30c3\u30d7\u30dc\u30fc\u30c9\u3078\u30b3\u30d4\u30fc", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\s\\-\u3000\u3001\u3002\uff0c\uff0e]+", "search.placeholder": "\u691c\u7d22", "search.result.more.one": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3082\u30461\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.more.other": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3042\u3068#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.none": "\u4f55\u3082\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f", "search.result.one": "1\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.other": "#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.placeholder": "\u691c\u7d22\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044", "search.result.term.missing": "\u691c\u7d22\u306b\u542b\u307e\u308c\u306a\u3044", "select.version.title": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.960e086b.min.js"></script>
+      <script src="../assets/javascripts/bundle.c44cc438.min.js"></script>
       
     
   </body>
