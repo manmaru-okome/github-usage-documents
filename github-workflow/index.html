@@ -404,6 +404,34 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    4. 編集したソースコードをステージング
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    5. 変更をコミット
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    6. コミットをリモートリポジトリに公開
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    7. プルリクエストを作成
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -450,6 +478,21 @@
 <h2 id="github_1">GitHubの運用法</h2>
 <h3 id="github-flow">GitHub flow</h3>
 <p><img alt="github-flow" src="https://www.nicoespeon.com/static/github-flow-branching-model-0606fb12b7a55784a3b52833fd015ebd-e0740.jpg" /></p>
+<p>ブランチの命名</p>
+<ul>
+<li>main<ul>
+<li>リリース用のブランチ</li>
+</ul>
+</li>
+<li>feature/XXX<ul>
+<li>機能開発用のブランチ。mainブランチから派生させる。</li>
+</ul>
+</li>
+<li>hotfix/XXX<ul>
+<li>mainで見つかったバグを修正するブランチ。mainから派生させる。</li>
+</ul>
+</li>
+</ul>
 <h2 id="_1">機能開発</h2>
 <p><img alt="workflow-1" src="../images/github-workflow-1.drawio.svg" /></p>
 <h3 id="1">1. ブランチをつくる</h3>
@@ -458,6 +501,19 @@
 <h3 id="2">2. リモートに公開</h3>
 <div class="highlight"><pre><span></span><code>&gt; git push origin/&lt;ブランチ名&gt;
 </code></pre></div>
+<h3 id="4">4. 編集したソースコードをステージング</h3>
+<div class="highlight"><pre><span></span><code><span class="c1">#  特定のファイルをステージング</span>
+&gt; git add &lt;filename&gt;
+<span class="c1"># 変更があったすべてのファイルをステージング</span>
+&gt; git add .
+</code></pre></div>
+<h3 id="5">5. 変更をコミット</h3>
+<div class="highlight"><pre><span></span><code>&gt; git commit -m <span class="s2">&quot;&lt;どのような変更を加えたかコメント&gt;&quot;</span>
+</code></pre></div>
+<h3 id="6">6. コミットをリモートリポジトリに公開</h3>
+<div class="highlight"><pre><span></span><code>&gt; git push origin/&lt;ブランチ名&gt;
+</code></pre></div>
+<h3 id="7">7. プルリクエストを作成</h3>
 
               
             </article>
